@@ -8,6 +8,8 @@ from backend.serializers import ProductSerializer
 
 class ProductView(APIView):
     pass
+
+
 #     def get(self, request, *args,**kwargs):
 #         shop = Shop.objects.create(name='Sviaznoy', state=True)
 #         Product.objects.create(name='Iphone',

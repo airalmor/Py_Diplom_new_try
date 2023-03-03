@@ -18,7 +18,4 @@ from django.urls import path
 
 from backend.views import ProductView
 
-urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('product/', ProductView.as_view())
-]
+urlpatterns = [path("admin/", admin.site.urls), path("product/", ProductView.as_view())]
